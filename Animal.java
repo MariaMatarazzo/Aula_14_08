@@ -10,7 +10,7 @@ public class Animal {
 	public String getTamanho() {
 		return Tamanho;
 	}
-	public void setTamanho(String Tamnho) {
+	public void setTamanho(String Tamanho) {
 		this.Tamanho = Tamanho;
 	}
 	public String getCor() {
@@ -31,8 +31,8 @@ public class Animal {
 	public void setalimentacao(String alimentacao) {
 		this.alimentacao = alimentacao;
 	}
-	public String pular() {
-		return "pular";
+	public String dorme() {
+		return "dormir";
 	}
 	public String correr() {
 		return "correr";
